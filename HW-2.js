@@ -39,5 +39,5 @@ user['age'] = 28;
 delete user.cityOfresidence;
 let info = prompt("Какую информацию хотите узнать о пользователе?")
 alert(user[info]);
-let userName = prompt('Как Вас зовут?')
+let userName = prompt('Как Вас зовут?') 
 alert(`Вас зовут ${userName}`);
