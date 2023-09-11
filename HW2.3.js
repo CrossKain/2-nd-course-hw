@@ -15,7 +15,7 @@ if (getPass === password) {
 const c = 5;
 (c > 0 && c < 10) ? alert('Верно') : alert('Неверно');
 
-// задание номер 3
+//задание номер 3
 
 const d = 4;
 const e = 5;
