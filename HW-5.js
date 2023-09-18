@@ -8,7 +8,7 @@ function comparison(a, b) {
         alert('Первое число больше')
     }
 
-}
+} 
 comparison(5, 5);
 
 // Задание 1-1 Вариация 
