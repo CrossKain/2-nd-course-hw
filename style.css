@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@-webkit-keyframes swing {
+    15% {
+        -webkit-transform: translateX(9px);
+        transform: translateX(9px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-9px);
+        transform: translateX(-9px);
+    }
+
+    40% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+
+    50% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+
+    65% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateX(9px);
+        transform: translateX(9px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-9px);
+        transform: translateX(-9px);
+    }
+
+    40% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+
+    50% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+
+    65% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.header {
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+    display: flex;
+}
+
+.header__main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 218px;
+    padding-left: 120px;
+}
+
+.header__info {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 740px;
+}
+
+.header__story {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 480px;
+    margin-top: 32px;
+
+}
+
+.header__button {
+    border-radius: 30px;
+    box-sizing: border-box;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 234.063px;
+    height: 48.603px;
+    margin-top: 44px;
+}
+
+.header__button:hover {
+    box-shadow: 0 0 10px 0 #527c82 inset, 0 0 10px 4px #527c82;
+}
+
+.header__button:hover,
+.header__button:focus {
+    outline: 0;
+}
+
+
+
+
+.nav__main {
+    background-image: url(img/Rectangle\ 5.jpg);
+    height: 556px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main__game-1 {
+    border-radius: 16px;
+    background-image: url(img/game1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+
+}
+
+.main__game-1:hover {
+    box-shadow: inset 0 0 0 2px #f40101;
+}
+
+
+
+
+.main__game-2 {
+    border-radius: 16px;
+    background-image: url(img/game2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+}
+
+.main__game-2:hover {
+    box-shadow: inset 0 0 0 2px #f40101;
+}
+
+.main__game-3 {
+    border-radius: 16px;
+    background-image: url(img/game3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+}
+
+.main__game-3:hover {
+    box-shadow: inset 0 0 0 2px #f40101;
+}
+
+.main__game-number {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 236px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
+
+}
+
+.footer__menu {
+    background-image: url(img/Rectangle\ 6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.footer__menu-main {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px;
+    margin-top: 282px;
+    margin-bottom: 282px;
+
+}
+
+.footer__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__text-about {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 600px;
+}
+
+.footer__button {
+    border-radius: 30px;
+    box-sizing: border-box;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 234.063px;
+    height: 48.603px;
+
+
+}
+
+.footer__button:hover {
+    box-shadow: 0 0 10px 0 #527c82 inset, 0 0 10px 4px #527c82;
+}
+
+.footer__button:hover,
+.footer__button:focus {
+    outline: 0;
+}
+
+.footer__icon {
+    display: flex;
+    padding-right: 116px;
+    flex-direction: column;
+    height: 333px;
+    background-color: #000915;
+    
+
+}
+
+
+
+
+
