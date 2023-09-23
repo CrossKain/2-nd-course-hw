@@ -28,7 +28,7 @@ let arr = [];
 for (let i = 0; i < 3; i++) {
     arr[i] = [];
     for (let j = 0; j <= i; j++) {
-        arr[i].push(j + 1)
+        arr[i].push(1)
     }
 }
 console.log(arr);
@@ -36,7 +36,7 @@ console.log(arr);
 // Задание 5
 
 const two = [1, 1, 1];
-two.push('2,2,2');
+two.push(2,2,2);
 console.log(two)
 
 
@@ -125,7 +125,7 @@ filterPositive([-25, 25, 0, -1000, -2]);
 // Задание 14
 let randomArray = [];
 for (let i = 0; i < 10; i++) {
-    randomArray.push(Math.floor(Math.random() * 10));
+    randomArray.push(Math.floor(Math.random() * 10))+1;
 
 }
 const evenNumbers = randomArray.filter(el => el % 2 === 0);
