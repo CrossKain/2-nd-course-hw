@@ -79,8 +79,8 @@ a {
 }
 
 .center {
-    padding-left: calc(50% - 720px);
-    padding-right: calc(50% - 720px);
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 .header {
@@ -98,7 +98,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     padding-top: 218px;
-    padding-left: 120px;
+
 }
 
 .header__info {
@@ -157,10 +157,11 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: row;
+
     gap: 32px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 
 
 }
@@ -236,7 +237,7 @@ a {
     height: 800px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 
 
@@ -247,7 +248,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 120px;
+
     margin-top: 282px;
     margin-bottom: 282px;
 
@@ -299,7 +300,7 @@ a {
 
 .footer__icon {
     display: flex;
-    padding-right: 116px;
+
     flex-direction: column;
     height: 333px;
     background-color: #000915;
@@ -307,4 +308,92 @@ a {
 
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .header {
+        background-image: url(/img/mobile_header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 735px;
+    }
+
+    .header__main {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .header__info {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 238px;
+    }
+
+    .header__story {
+        font-size: 14px;
+        line-height: 22px;
+        /* 157.143% */
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .nav__main {
+        padding-bottom: 0px;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1221px;
+
+    }
+
+    .main__game-number {
+        top: 218px;
+    }
+
+    .footer__menu {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 652px;
+    }
+
+    .footer__menu-main {
+        align-items: center;
+    }
+
+
+    .footer__text {
+        font-size: 32px;
+    }
+
+    .footer__text-about {
+        width: 343px;
+        font-size: 14px;
+        color: #FFF;
+        font-weight: 300;
+        line-height: 22px;
+        /* 157.143% */
+        text-align: center;
+    }
+
+    .footer__icon {
+        width: 344px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .main__game-number {
+        top: 183px;
+    }
+
+    .footer__icon {
+        width: 290px;
+    }
+}
