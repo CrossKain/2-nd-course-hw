@@ -1,15 +1,15 @@
 // Задание 1
 
 function comparison(a, b) {
-    if (a >= b) {
-        alert(b);
+    if (b >= a) {
+        return(a);
 
     } else {
         alert('Первое число больше')
     }
 
-}
-comparison(5, 5);
+} 
+comparison(9, 8);
 
 // Задание 1-1 Вариация 
 
@@ -23,7 +23,11 @@ comparisonTwo(6, 6);
 // Задание 2
 
 const number = (a) => {
-    (a % 2 ) ? alert("Число не четное") : alert ('Число четное');
+    if (a % 2 == 0){
+        return 'Число четное'
+    }else {
+        return('Число не четное')
+    }
 
 }
 number(127)
@@ -42,7 +46,7 @@ const AnswerSquare = (a) => {
 
 }
 
-console.log(AnswerSquare(54))
+AnswerSquare(54)
 
 
 // Задание 4
@@ -55,7 +59,7 @@ const Hello = () => {
     } else if (userAnswer >= 13) {
         alert('Добро Пожаловать!')
 
-    } else if (userAnswer = isNaN) {
+    } else if (isNaN(userAnswer)) {
         alert('Введите число')
     }
 
@@ -73,17 +77,17 @@ const Check = (a, b) => {
 
 }
 
-alert(Check("gf", 6))
+alert(Check("6", "6"))
 
 // Задание 6
 
 const chekNumber = () => {
     let userChekNumber = prompt('Введите число');
     if (isNaN(userChekNumber)) {
-        alert('Переданный параметр не является числом')
+        return('Переданный параметр не является числом')
     } else  {
         let cubeAnswer = Math.pow(userChekNumber, 3);
-        alert((userChekNumber) + 'в кубе равняется'+ (cubeAnswer))
+        return(userChekNumber + ' в кубе равняется '+ cubeAnswer)
 
 
     }
@@ -132,7 +136,7 @@ console.log(circle2.getPerimeter());
 // Задание 8
 
 const month = (a) => {
-    if (a <=2 || a == 12) {
+    if (a >= 1 || a ===2 || a === 12) {
         return'Зима';
     } else if (a >= 3 && a <= 5) {
         return'Весна';
@@ -147,4 +151,4 @@ const month = (a) => {
     
 }
 
-console.log(month('пав'))
+console.log(month('0'))
