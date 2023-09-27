@@ -18,11 +18,11 @@ const month = () => {
     }
 
 }
-
+function gameStart() {
 const gameTwo = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
 
-gameTwo.sort(function () {
+gameTwo.sort(function game() {
     return 0.5 - Math.random();
 });
 
@@ -36,10 +36,10 @@ let userAnsverOne = prompt('Чему равнялся первый элемен�
 let userAnsverTwo = prompt('Чему равнялся последний элемент массива?');
 
 
-if (userAnsverOne === gameTwo[0] && userAnsverTwo === gameTwo[gameTwo.length - 1]) {
+if (userAnsverOne === gameTwo[0].toLocaleLowerCase() && userAnsverTwo === gameTwo[gameTwo.length - 1].toLocaleLowerCase()) {
     alert("Поздравляем! Вы угадали оба элемента!");
-} else if (userAnsverOne === gameTwo[0] || userAnsverTwo === gameTwo[gameTwo.length - 1]) {
+} else if (userAnsverOne === gameTwo[0].toLocaleLowerCase() || userAnsverTwo === gameTwo[gameTwo.length - 1].toLocaleLowerCase()) {
     alert("Вы были близки к победе!");
 } else {
     alert("Вы ответили неверно.");
-}
+}}
