@@ -125,3 +125,30 @@ const currentDate = new Date();
 const formattedDateTime = formatDateTime(currentDate);
 console.log(formattedDateTime);
 
+
+// Задание 11 для игры
+
+// const gameTwo = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+
+// gameTwo.sort(function () {
+//     return 0.5 - Math.random();
+// });
+
+// // Вывод массива
+
+// alert(gameTwo);
+
+// // Спрашиваем у пользователя
+
+// let userAnsverOne = prompt('Чему равнялся первый элемент массива?');
+// let userAnsverTwo = prompt('Чему равнялся последний элемент массива?');
+
+
+// if (userAnsverOne === gameTwo[0] && userAnsverTwo === gameTwo[gameTwo.length - 1]) {
+//     alert("Поздравляем! Вы угадали оба элемента!");
+// } else if (userAnsverOne === gameTwo[0] || userAnsverTwo === gameTwo[gameTwo.length - 1]) {
+//     alert("Вы были близки к победе!");
+// } else {
+//     alert("Вы ответили неверно.");
+// }
