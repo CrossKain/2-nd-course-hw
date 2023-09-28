@@ -42,4 +42,4 @@ if (userAnsverOne === gameTwo[0].toLocaleLowerCase() && userAnsverTwo === gameTw
     alert("Вы были близки к победе!");
 } else {
     alert("Вы ответили неверно.");
-}}
+}} 

@@ -13,7 +13,7 @@ const result = searchStart(['Кошка', 'Кит', 'Комар', 'Носоро�
 const result2 = searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); // ['груша']
 const result3 = searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'); // []
 
-console.log(result, result2, result3)
+console.log(result, result2, result3) 
 
 // Задание 3
 
