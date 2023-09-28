@@ -105,10 +105,9 @@ a {
     color: #FFF;
     font-family: Montserrat;
     font-size: 64px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    max-width: 740px;
+
+
 }
 
 .header__story {
@@ -118,7 +117,6 @@ a {
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
-    max-width: 480px;
     margin-top: 32px;
 
 }
@@ -130,9 +128,7 @@ a {
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     width: 234.063px;
     height: 48.603px;
     margin-top: 44px;
@@ -216,7 +212,6 @@ a {
     color: #FFF;
     font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 32px;
     display: flex;
@@ -271,19 +266,17 @@ a {
     color: #FFF;
     font-family: Montserrat;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+
 }
 
 .section__text-about {
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 300;
     line-height: 32px;
-    max-width: 600px;
+
 }
 
 .section__button {
@@ -293,9 +286,7 @@ a {
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     width: 234.063px;
     height: 48.603px;
 
@@ -381,12 +372,14 @@ a {
         align-items: center;
         height: 652px;
     }
+
     .section__menu-two {
 
         padding-bottom: 0px;
         display: flex;
         justify-content: space-between;
-        flex-direction: column-reverse;;
+        flex-direction: column-reverse;
+        ;
         align-items: center;
         height: 652px;
     }

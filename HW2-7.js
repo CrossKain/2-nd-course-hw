@@ -58,18 +58,18 @@ console.log(randomNumber(1, 10))
 //Задание 6
 
 function generateRandomArray(num) {
-    var array = [];
-    var length = num / 2;
+    let array = [];
+    let length = num / 2;
 
-    for (var i = 0; i < length; i++) {
-        var randomNum = Math.floor(Math.random() * num);
+    for (let i = 0; i < length; i++) {
+        let randomNum = Math.floor(Math.random() * num);
         array.push(randomNum);
     }
 
     return array;
 }
 
-var resultF = generateRandomArray(6);
+let resultF = generateRandomArray(6);
 console.log(resultF);
 
 // Задание 7
