@@ -12,11 +12,11 @@
 </head>
 
 <body>
-    <div class="center">
+    <div>
         <header class="header center">
             <div class="header__main">
-                <h1 class="header__info">Добро пожаловать на мой сайт !</h1>
-                <h4 class="header__story">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+                <h1 class="header__info">Добро пожаловать<br /> на мой сайт !</h1>
+                <h4 class="header__story">Вам предстоит пройти несколько увлекательных<br /> игр. Если готов нажимай
                     <b>поехали</b> и
                     <b>приступай</b>
                 </h4>
@@ -27,7 +27,7 @@
     </div>
 
 
-    <section class="center">
+    <section>
         <article class="nav__main center">
 
             <div class="main__game-1">
@@ -47,23 +47,47 @@
         </article>
     </section>
 
-    <footer class="center">
-        <div class="footer__menu">
-            <div class="footer__menu-main">
-                <h2 class="footer__text">Времена года!</h2>
-                <h4 class="footer__text-about">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+    <section>
+        <div class="section__menu center">
+            <div class="section__menu-main">
+                <h2 class="section__text">Времена года!</h2>
+                <h4 class="section__text-about">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы<br /> узнаете к
                     какому времени года он относится</h4>
-                <button class="footer__button" onclick="month();">Играть!</button>
+                <button class="section__button" onclick="month();">Играть!</button>
+
+
             </div>
-            <div class="footer__icon">
-                <img src="img/controller.svg" alt="">
-            </div>
-            
+            <img src="img/controller.svg" alt="" class="section__icon">
+
+
+
+
 
 
         </div>
 
-    </footer>
+    </section>
+    <section>
+        <div class="section__menu-two center">
+            <img src="img/controler2.svg" alt="" class="section__icon">
+            <div class="section__menu-main">
+                <h2 class="section__text">Запомни слова</h2>
+                <h4 class="section__text-about">При нажатии на кнопку играть, вы увидите несколько слов,<br /> которые вам
+                    необходимо запомнить.</h4>
+                <button class="section__button" onclick="gameStart();">Играть!</button>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </section>
     <script src="script.js"></script>
 </body>
 
