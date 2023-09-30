@@ -10,8 +10,8 @@ function compareAge(a, b) {
 }
 
 
-people.sort(compareAge);
-console.log(peopleOne.sort());
+peopleOne.sort(compareAge);
+console.log(peopleOne.sort(compareAge));
 
 //задание2
 function isPositive(Number) {
@@ -88,4 +88,4 @@ function sayHi(name) {
 }
 
 
-delayForSecond(() => sayHi('Глеб'));
+delayForSecond(() => sayHi('Глеб')); 
