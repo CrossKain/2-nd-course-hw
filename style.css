@@ -167,7 +167,7 @@ a {
 
 .main__game-1 {
     border-radius: 16px;
-    background-image: url(img/game1.svg);
+    background-image: url(img/game1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +185,7 @@ a {
 
 .main__game-2 {
     border-radius: 16px;
-    background-image: url(img/game2.svg);
+    background-image: url(img/game2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ a {
 
 .main__game-3 {
     border-radius: 16px;
-    background-image: url(img/game3.svg);
+    background-image: url(img/game3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,11 +303,8 @@ a {
     flex-direction: column;
     height: 333px;
     background-color: #000915;
-    
+
 
 }
 
-
-
-
-
+@media (max-width: 767px) {}
